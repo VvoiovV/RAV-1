@@ -2,11 +2,9 @@
 SoftwareSerial bluetooth(12, 11); //12 RX, 11 TX
 char received  = 0;
 
-
 #include <Servo.h>
 Servo servo;
 #define pinservo 2
-
 
 #include <Stepper.h>
 Stepper firststepper(32, 4, 6, 7, 8);
